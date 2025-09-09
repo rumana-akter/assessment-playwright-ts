@@ -1,5 +1,7 @@
-node_modules/
-playwright-report/
-test-results/
-*.zip
+node_modules
+.env
+playwright-report
+test-results
+.cache
+.vscode
 *.log
