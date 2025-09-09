@@ -1,0 +1,19 @@
+{
+  "name": "qa-assessment-playwright-ts",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Small UI + API automation framework (Playwright + TypeScript) for practicesoftwaretesting.com",
+  "scripts": {
+    "prepare": "npx playwright install --with-deps",
+    "test": "playwright test src/tests/ui",
+    "test:ui": "playwright test src/tests/ui",
+    "test:api": "playwright test api",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.45.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.0",
+    "dotenv": "^16.4.5"
+  }
+}
